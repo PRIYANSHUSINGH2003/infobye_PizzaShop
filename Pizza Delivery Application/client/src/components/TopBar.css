@@ -1,0 +1,50 @@
+/* TopBar.css */
+
+.topbar {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.topbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.delivery-info {
+    display: flex;
+    align-items: center;
+    color: #ffc107; 
+}
+
+.offer-icon {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.offer-text {
+    font-size: 0.9rem;
+}
+
+.navbarNav .navLink {
+    color: #ffffff; 
+    margin-right: 20px;
+}
+
+.navbarNav .navLink:hover {
+    color: #ffc107; 
+}
+
+@media (max-width: 768px) {
+    .topbar-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .delivery-info {
+        margin-bottom: 10px;
+    }
+    .navbarNav .navLink {
+        margin: 10px 0;
+    }
+}

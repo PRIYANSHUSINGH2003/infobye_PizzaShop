@@ -1,0 +1,59 @@
+/* AdminScreen.css */
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    min-height: 100vh;
+    /* Adjust the sidebar height as needed */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+    background-color: #555;
+    border-left: 5px solid #ffc107;
+    /* Add a border-left on hover */
+}
+
+/* Content Styles */
+.content {
+    padding: 20px;
+    min-height: 100vh;
+    /* Adjust the content height as needed */
+}
+
+/* Header Styles */
+.content h1 {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.content button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+    background-color: #555;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

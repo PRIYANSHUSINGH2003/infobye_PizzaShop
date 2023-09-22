@@ -1,0 +1,37 @@
+
+.about-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.about-title {
+    font-size: 32px;
+    color: #333;
+}
+
+.about-subtitle {
+    font-size: 18px;
+    color: #666;
+}
+
+
+.about-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.about-list {
+    font-size: 14px;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.pizza-image {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.chef-image {
+    height: 250px;
+}

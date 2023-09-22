@@ -1,0 +1,95 @@
+
+.pizza-card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1rem;
+}
+
+.pizza-card img {
+    max-width: 100%;
+    height: auto;
+}
+.pizza-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.pizza-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+
+}
+
+.pizza-card select.form-select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.pizza-card .pizza-description {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pizza-card .pizza-price {
+    font-weight: bold;
+    margin-top: 10px;
+    /* Reduced margin for spacing */
+}
+
+.pizza-card .btn-primary {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 10px;
+}
+
+.modal-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+.modal-body p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .pizza-card {
+        padding: 10px;
+    }
+
+    .pizza-card .card-title {
+        font-size: 1rem;
+    }
+
+    .pizza-card .pizza-description {
+        font-size: 0.8rem;
+
+    }
+
+    .pizza-card .pizza-price {
+        margin-top: 5px;
+
+    }
+
+    .pizza-card .btn-primary {
+        margin-top: 5px;
+    }
+}

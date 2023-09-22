@@ -1,0 +1,37 @@
+/* Register.css */
+
+.container1 {
+    margin-top: 20px;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container1:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-group1 {
+    margin-bottom: 20px;
+}
+
+.form-label1 {
+    font-weight: bold;
+}
+
+.btn-primary1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary1:hover {
+    background-color: #0056b3;
+}
